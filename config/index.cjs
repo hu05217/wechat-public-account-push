@@ -14,7 +14,7 @@ const USER_CONFIG = {
   APP_SECRET: 'a05f142782517760bd663bb0f9a48ffd',
 
   PROVINCE: '重庆市',
-  CITY: '九龙坡区',
+  CITY: '重庆市九龙坡区',
 
   USERS: [
     {
@@ -29,11 +29,11 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '1998', date: '03-13',
+          type: '*生日', name: '宝贝', year: '1998', date: '04-09',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '宝贝', year: '1998', date: '04-09',
+          type: '生日', name: '小胡同学', year: '1998', date: '07-14',
         },
         {
           type: '节日', name: '相识纪念日', year: '2021', date: '07-13',
@@ -57,7 +57,7 @@ const USER_CONFIG = {
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'od6zL6dmtUhUqI756VDkr-VgOlUA',
+      id: 'od6zL6b5HrfIzCWiPW5a009R2-BY',
     }
   ],
 
