@@ -13,8 +13,8 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: 'a05f142782517760bd663bb0f9a48ffd',
 
-  PROVINCE: '重庆市',
-  CITY: '重庆市九龙坡区',
+  PROVINCE: '重庆',
+  CITY: '九龙坡',
 
   USERS: [
     {
@@ -29,7 +29,7 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '1998', date: '04-09',
+          type: '*生日', name: '宝贝', year: '1998', date: '03-13',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
